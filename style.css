@@ -1,57 +1,114 @@
 
-
-
-
-h1 {
-    color: red;
-    font-size: 36px;
-    text-align: center;  
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  line-height: 20px;
+  width: 100vw;
+  color: #525252;
 }
 
+.icons {
+  height: 50px;
+}
+
+h1 {
+    color: rgb(150, 12, 67);
+    font-size: 36px;
+    text-align: center;  
+    
+}
 
 hr {
-    border: 2px double blue;
+    border: 2px double #850a58;
 }
 
 header {
-    background-color: rgb(49, 49, 202);
-    border-radius: 50px;
+   
+    background-color: #F6FFDE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px 100px;
+
 }
 
 h2 {
-    color: red;
-}
-
-#btn1:link {
-  /* text-decoration: none; */
-  color: rgb(177, 192, 192) important!;
-  background-color: black;
-  padding: 10px 30px;
-  border-radius: 10px;
-  margin: 20px 30px;
-  border: 2px solid red;
-  opacity: 0.7;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-#btn1:hover {
-  color: rgb(13, 94, 94);
-  background-color: rgb(243, 239, 239);
-}
-
-#btn1:active {
-  color: rgb(15, 34, 34);
-  background-color: rgb(243, 239, 239);
+    color: #850a58;
 }
 
 
-#btn2 {
+.links {
+  text-align: center;
+}
+
+.btn:link {
   text-decoration: none;
-  color: rgb(1, 17, 17);
-  background-color: rgb(10, 132, 14);
+  color: #850a58;
+  background-color:#D2E0FB;
   padding: 10px 30px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 20px 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid  #850a58;
 }
 
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  color: #D2E0FB;
+  background-color: #850a58;
+  opacity: 1;
+}
+
+.exper {
+  background-color: #F6FFDE;
+  width: 450px;
+  border-radius: 16px;
+  margin: 10px 20px;
+  padding: 20px;
+ 
+  
+}
+.exper p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.comp {
+  background-color: #F6FFDE;
+  width: 500px;
+   border-radius: 16px;
+   margin: 10px 20px;
+   padding: 20px;
+  
+}
+
+.forma {
+  display: block;
+  justify-content: center;
+  background-color: #D2E0FB;
+  margin: 50px 60px;
+  border-radius: 16px;
+  padding: 20px;
+  line-height: 20px;
+
+}
+
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 50px 50px;
+}
+
+
+table {
+  
+ table-layout: auto;
+ width: 50%;
+}
